@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Schema</title>
+    </head>
+    <body>
+        <div class="top-bar">
+            <input type="color" id="seed-color">
+            <div class="custom-selector">
+                <select name="mode" id="mode-selector">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <button class="get-btn">Generate</button>
+            <button class="dark-btn">
+                <a class="fa-solid fa-moon"></a>
+            </button>
+        </div>
+        <div class="colors-container">
+            <div class='color-block' id="color-1"><div class="select-box"><i class="fa-regular fa-copy"></i><p>Copy</p></div></div>
+            <div class='color-block' id="color-2"><div class="select-box"><i class="fa-regular fa-copy"></i><p>Copy</p></div></div>
+            <div class='color-block' id="color-3"><div class="select-box"><i class="fa-regular fa-copy"></i><p>Copy</p></div></div>
+            <div class='color-block' id="color-4"><div class="select-box"><i class="fa-regular fa-copy"></i><p>Copy</p></div></div>
+            <div class='color-block' id="color-5"><div class="select-box"><i class="fa-regular fa-copy"></i><p>Copy</p></div></div>
+            <p id="color-1-hex"></p>
+            <p id="color-2-hex"></p>
+            <p id="color-3-hex"></p>
+            <p id="color-4-hex"></p>
+            <p id="color-5-hex"></p>
+        </div>
+    </body>
+</html>
+
+
+
+
